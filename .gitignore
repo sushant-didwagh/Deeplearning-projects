@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+.npm/
+
+# Python virtual environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# Heavy model weights (GitHub has a 100MB limit)
+yolov8x.pt
+yolov8s.pt
+yolov8m.pt
+yolov8n.pt
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+client/dist/
+
+# OS files
+.DS_Store
+Thumbs.db
